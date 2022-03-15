@@ -1,6 +1,14 @@
 /* Mobile & tablet */
 @media (max-width: 1023px) {
-
+    .header__mobile--logo > img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    .container__product {
+        margin-right: -100px;
+        margin-left: -100px;
+    }
 }
 
 /* Tablet */
@@ -31,6 +39,10 @@
     }
     .header__mobile {
         display: flex;
+        background-color: white;
+    }
+    .input__search--mobile {
+        background-color: white;
     }
 
     .header__search--mobile {
@@ -69,10 +81,15 @@
 
     .header__mobile {
         display: flex;
+        background-color: white;
+    }
+    .input__search--mobile {
+        background-color: white;
     }
 
     .header__search--mobile {
         display: block;
+        background-color: white;
     }
     .category-item {
         display: flex;
